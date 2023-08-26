@@ -13,8 +13,8 @@ const Icon = document.querySelector(".nav-toggle i")
 //     console.log('gelo');
 // })
 
-menuBtn.addEventListener("click", function(e){
-    e.preventDefault();
+menuBtn.addEventListener("click", function(){
+    // e.preventDefault();
     if(toggle){
         navBar.style.left = "-500px";
         Icon.setAttribute("class", "fas fa-bars"); /*means to change the class*/

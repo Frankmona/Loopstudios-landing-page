@@ -377,13 +377,9 @@ text-transform: uppercase;
 
 .mobile-image-interactive{
   display: block;
-  /* height: 270px;
-  width: 400px;
-  padding: 10px; */
-  /* height: 250px; */
-  width: 100%;
-  /* padding: 30px; */
-  /* margin-top: 40px; */
+  margin: 0 auto;
+  width: 80%;
+
 }
 
 .section_internalBox{
