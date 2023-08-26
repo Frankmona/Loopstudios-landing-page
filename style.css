@@ -268,7 +268,7 @@ text-transform: uppercase;
   .nav-header {
     display: flex;
     align-items: center;
-    gap: 9rem;
+    gap: 6rem;
     justify-content:space-between;
     padding: 1.5rem;
   }
@@ -364,7 +364,7 @@ text-transform: uppercase;
 .sectionB{
   width: 100%;
   height: 300px;
-  background-color: aquamarine;
+  background-color: transparent;
   margin: 0 auto;
   margin: 0px;
   display: flex;
@@ -387,10 +387,10 @@ text-transform: uppercase;
 }
 
 .section_internalBox{
-  width: 100%;
-  height: 150px;
-  background-color:goldenrod;
-  position:none;
+  width: fit-content;
+  height: fit-content;
+  background-color:transparent;
+  position:relative;
   margin-left: 0px;
   margin-top: 0px;
   padding: 3rem;
@@ -409,15 +409,15 @@ text-transform: uppercase;
 }
 
 .sectionC{
-  width: 300px;
+  width: fit-content;
   height: 100px;
-  /* background-color: aquamarine; */
+  background-color: transparent;
   margin: 0 auto;
   font-family: 'Alata', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 91rem;
-  margin-top: 380px;
+  margin-top: 0px;
 }
 
 .h1{
@@ -539,7 +539,7 @@ body{
 
 .image_div{
   width: 100%;
-  background-color: brown;
+  background-color: transparent;
   margin: 0 auto;
   margin-top: 50px;
 }
